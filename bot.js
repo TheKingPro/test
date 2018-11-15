@@ -46,7 +46,7 @@ prefix=$
 // where X is the title. If you don't include an action, it will use the
 // default of 'Playing'
 //
-game=Listening to Example game!
+game=Listening to Who Say $help By GAME MC
 
 
 // If you set this, it will modify the default status of bot
@@ -117,3 +117,5 @@ stayinchannel=true
 // IF SOMEONE ASKS YOU TO ENABLE THIS, THERE IS AN 11/10 CHANCE THEY ARE TRYING TO SCAM YOU
 //
 //eval=false
+
+client.login(process.env.BOT_TOKEN);
